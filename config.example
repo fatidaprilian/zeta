@@ -1,0 +1,19 @@
+# All entries which allow multiple values should be comma-separated, e.g.
+# admins = admin1,admin2
+[base]
+server = irc.example.com
+port = 6667
+nick =
+# Admins of the bot. Can issue commands from the "base"-plugin (not! optional)
+admins =
+# Plugins to load on startup (optional)
+plugins=decide,quotes,last,fortune
+# The nickserv password (optional)
+# nickserv_password =
+# Channels to automatically join (optional)
+# channels =
+# Folder to save the logs in (optional)
+# Defaults to ~/.lala/logs (to be changed in the future). The folder must exist.
+# log_folder =
+
+debug = False
